@@ -1,0 +1,395 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@font-face {
+  font-family: 'Graphik Web';
+  src: url("Graphik-Super-Web.eot");
+  src: url("Graphik-Super-Web.eot?#iefix") format("embedded-opentype"), url("Graphik-Super-Web.woff") format("woff"), url("Graphik-Super-Web.ttf") format("truetype"), url("Graphik-Super-Web.svg#Graphik-Super") format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal; }
+
+html {
+  overflow-y: scroll; }
+
+body {
+  background: white;
+  margin: 0;
+  height: 100vh;
+  overflow-y: auto;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%; }
+
+.name_pad {
+  padding-top: 10px; }
+
+.hero {
+  padding-left: calc((100vw + 80px) / 21);
+  padding-right: calc((100vw + 80px) / 21);
+  margin: 0; }
+
+.myprojects {
+  padding-left: calc((100vw + 80px) / 21);
+  padding-right: calc((100vw + 80px) / 21);
+  margin: 0; }
+
+.name_container {
+  width: 100%; }
+  .name_container h1 {
+    display: block;
+    font-family: 'Graphik Web',sans-serif;
+    font-weight: bold; }
+
+.name_spec {
+  font-size: 5em;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: -0.032em; }
+
+@media screen and (min-width: 600px) {
+  .name_spec {
+    font-size: 10em; }
+  .user_info {
+    display: flex;
+    justify-content: space-between; }
+    .user_info .left {
+      display: block;
+      margin-top: -120px;
+      margin-left: 10px; }
+    .user_info .right {
+      margin-top: -120px;
+      padding: 0; } }
+
+.email {
+  color: inherit;
+  margin-bottom: 10px;
+  display: inline-block;
+  font-family: 'Poppins';
+  font-size: 18px; }
+
+.tittle {
+  font-family: "Poppins";
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 600; }
+
+.mycurrent {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px; }
+
+.linklinked {
+  font-family: Poppins;
+  font-style: normal;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  color: #817D7D; }
+
+.links {
+  font-family: Poppins;
+  font-style: normal;
+  text-decoration: none;
+  margin-left: 5px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  color: #817D7D; }
+
+.heading {
+  font-family: 'Graphik Web',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 27px; }
+
+.bold {
+  font-weight: bold; }
+
+.logo {
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Poppins';
+  text-decoration: none;
+  color: #444444;
+  font-size: 50px; }
+  .logo span {
+    color: #007AF3; }
+
+.imblu {
+  color: #007AF3; }
+
+.description {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 19px;
+  color: #776F6F; }
+
+.explore {
+  color: #AAA;
+  font-size: 16px;
+  line-height: 2em;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none; }
+
+.placecenter {
+  display: grid;
+  place-items: center;
+  margin-top: 30px; }
+
+.wtrshop {
+  width: 90%;
+  height: 325px;
+  background: url("./images/main.png");
+  background-size: cover;
+  border: 5px solid #000000;
+  box-sizing: border-box;
+  border-radius: 14px; }
+
+.sort {
+  width: 100%;
+  height: 325px;
+  background: url("./images/s1.png");
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: 100% 100%;
+  border: 5px solid #000000;
+  box-sizing: border-box;
+  position: relative;
+  object-fit: contain;
+  border-radius: 14px; }
+
+@media screen and (max-width: 500px) {
+  .wtrshop {
+    width: 90%;
+    height: 210px;
+    background: url("./images/main.png");
+    background-size: cover;
+    border: 5px solid #000000;
+    box-sizing: border-box;
+    border-radius: 14px; } }
+
+@media screen and (min-width: 900px) {
+  .sort {
+    width: 650px;
+    height: 330px; }
+  .wtrshop {
+    width: 650px;
+    height: 330px;
+    background: url("./images/main.png");
+    background-size: cover;
+    border: 5px solid #000000;
+    box-sizing: border-box;
+    border-radius: 14px; }
+  .myprojects {
+    padding-left: calc((100vw + 80px) / 21);
+    padding-right: calc((100vw + 80px) / 21);
+    margin-top: 130px;
+    margin-bottom: 40px; }
+    .myprojects img {
+      margin-top: 10px; }
+    .myprojects .projects {
+      display: flex;
+      justify-content: space-between; }
+      .myprojects .projects .heading {
+        font-family: 'Graphik Web',sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 38px;
+        line-height: 27px; }
+      .myprojects .projects .bold {
+        font-weight: bold; }
+      .myprojects .projects .description {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 19px;
+        color: #776F6F; }
+      .myprojects .projects .right {
+        /* Rectangle 11 */
+        margin-top: -60px;
+        margin-right: 10px;
+        width: 620px;
+        height: 332px;
+        background: #FFFFFF;
+        border: 4px solid #000000;
+        box-sizing: border-box;
+        border-radius: 15px; } }
+
+.breaker {
+  width: 100%;
+  margin-top: 10px; }
+  .breaker img {
+    margin-top: 40px; }
+
+.myskills {
+  padding-left: calc((100vw + 80px) / 21);
+  padding-right: calc((100vw + 80px) / 21);
+  margin-top: 130px;
+  margin-bottom: 40px; }
+  .myskills .designer {
+    text-align: center; }
+    .myskills .designer h5 {
+      padding-top: 30px;
+      font-family: 'Graphik Web',sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 22px; }
+    .myskills .designer p {
+      font-family: 'Graphik Web',sans-serif;
+      font-style: normal;
+      margin-top: -10px;
+      margin-bottom: 1em;
+      font-weight: 500;
+      text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.2);
+      /* 50% black coming from the top */
+      font-size: 23px;
+      line-height: 22px; }
+  .myskills .skill .heading {
+    font-family: 'Graphik Web',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 22px;
+    color: #C9BA93; }
+  .myskills .skill .flex {
+    display: flex;
+    flex-direction: column; }
+    .myskills .skill .flex img {
+      margin-top: 0.25em;
+      margin-left: 2.5em; }
+  .myskills .skill p {
+    font-family: 'Graphik Web',sans-serif;
+    font-size: 24px;
+    margin-bottom: 1em;
+    text-align: start;
+    padding-left: 13px;
+    margin-left: 1em;
+    position: relative; }
+    .myskills .skill p:before {
+      content: '';
+      left: -0.3em;
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      top: 0.3em;
+      background-image: url("./images/dot.svg");
+      background-size: contain;
+      margin-right: .5em; }
+
+.java {
+  width: 75%;
+  height: 13px;
+  margin-left: -0.4em; }
+
+.script {
+  width: 67%;
+  height: 13px;
+  margin-left: -0.4em; }
+
+.ReactJS {
+  width: 66%;
+  height: 13px;
+  margin-left: -0.4em; }
+
+.python {
+  width: 60%;
+  height: 13px;
+  margin-left: -0.4em; }
+
+.react {
+  width: 58%;
+  height: 13px;
+  margin-left: -0.4em; }
+
+.mongo {
+  width: 55%;
+  height: 13px;
+  margin-left: -0.4em; }
+
+@media screen and (min-width: 500px) {
+  .java {
+    width: 55%;
+    height: 13px;
+    margin-left: -15px; }
+  .script {
+    width: 54%;
+    height: 13px;
+    margin-left: -0.4em; }
+  .ReactJS {
+    width: 52%;
+    height: 13px;
+    margin-left: -0.4em; }
+  .python {
+    width: 46%;
+    height: 13px;
+    margin-left: -0.4em; }
+  .react {
+    width: 38%;
+    height: 13px;
+    margin-left: -0.4em; }
+  .mongo {
+    width: 35%;
+    height: 13px;
+    margin-left: -0.4em; } }
+
+@media screen and (min-width: 800px) {
+  .java {
+    width: 35%;
+    height: 13px;
+    margin-left: -15px; }
+  .script {
+    width: 34%;
+    height: 13px;
+    margin-left: -0.4em; }
+  .ReactJS {
+    width: 32%;
+    height: 13px;
+    margin-left: -0.4em; }
+  .python {
+    width: 29%;
+    height: 13px;
+    margin-left: -0.4em; }
+  .react {
+    width: 28%;
+    height: 13px;
+    margin-left: -0.4em; }
+  .mongo {
+    width: 25%;
+    height: 13px;
+    margin-left: -0.4em; } }
+
+@media screen and (min-width: 1200px) {
+  .java {
+    width: 25%;
+    height: 13px;
+    margin-left: -15px; }
+  .script {
+    width: 24%;
+    height: 13px;
+    margin-left: -0.4em; }
+  .ReactJS {
+    width: 22%;
+    height: 13px;
+    margin-left: -0.4em; }
+  .python {
+    width: 19%;
+    height: 13px;
+    margin-left: -0.4em; }
+  .react {
+    width: 18%;
+    height: 13px;
+    margin-left: -0.4em; }
+  .mongo {
+    width: 15%;
+    height: 13px;
+    margin-left: -0.4em; } }
